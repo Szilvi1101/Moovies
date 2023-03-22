@@ -1,0 +1,29 @@
+.movie{
+
+    width: 600px;
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    background: #292929;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+.movie-poster img{
+
+    height: 460px;
+}
+
+.movie-info{
+
+    height: 460px;
+}
+
+@media(max-width: 600px){
+
+    .movie{
+
+        flex-direction: column;
+    }
+}

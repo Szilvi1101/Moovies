@@ -1,0 +1,54 @@
+body{
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #222;
+}
+
+.movie-header{
+
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  color: #fff;
+}
+
+.movie-header input{
+
+  width: 50%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.movie-header button{
+
+  background: rgb(2, 221, 2);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.movie-container{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hide{
+
+  display: none;
+}
